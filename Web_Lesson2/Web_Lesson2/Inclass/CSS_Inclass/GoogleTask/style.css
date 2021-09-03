@@ -9,6 +9,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
 #nav-bar {
   height: 150px;
   margin-top: 20px;
@@ -51,6 +52,12 @@ body {
   padding: 8px 11px;
   background-color: #4285f4;
   border-radius: 2px;
+}
+
+.ProfilePic{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }
 
 #sign-in-text {
@@ -173,3 +180,18 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(4,130px);
+  gap: 30px;
+  grid-template-rows: repeat(4,130px);
+}
+.wrapper > a > image{
+  border: solid 2px blue;
+  border-radius: 30px;
+  width: 130px;
+  height: 100px;
+}
+
+
+
