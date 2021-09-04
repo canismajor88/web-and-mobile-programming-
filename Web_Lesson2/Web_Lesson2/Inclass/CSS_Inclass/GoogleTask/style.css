@@ -182,16 +182,17 @@ footer a:hover {
 }
 .wrapper{
   display: grid;
-  grid-template-columns: repeat(4,130px);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  grid-template-rows: repeat(4,130px);
+  grid-template-rows: repeat(2, 1fr);
 }
-.wrapper > a > image{
-  border: solid 2px blue;
-  border-radius: 30px;
-  width: 130px;
+.short-cut-display{
+  border-radius: 2px;
+  border:solid 2px lightgray;
+
+}
+.short-cut-display > img{
   height: 100px;
+  width: 100px;
 }
-
-
 
