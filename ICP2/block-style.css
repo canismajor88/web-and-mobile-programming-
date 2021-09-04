@@ -1,0 +1,12 @@
+/* This the css code for the cube */
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(3,75px);
+  gap: 0px;
+  grid-template-rows: repeat(3, 75px);
+  justify-content: center;
+}
+.colorBlock{
+  height: 70px;
+  width: 70px;
+}
